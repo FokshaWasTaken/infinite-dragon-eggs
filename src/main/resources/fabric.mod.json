@@ -1,0 +1,26 @@
+{
+	"schemaVersion": 1,
+	"id": "infinite-dragon-eggs",
+	"version": "${version}",
+	"name": "Infinite Dragon Eggs",
+	"description": "Ensures a dragon egg spawns each time a dragon is killed, regardless of whether a dragon has been killed before.",
+	"authors": [
+		"Foksha."
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/project/infinite-dragon-eggs",
+		"sources": "https://github.com/FokshaWasTaken/infinite-dragon-eggs"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/infinite-dragon-eggs/icon.png",
+	"environment": "*",
+	"mixins": [
+		"infinite-dragon-eggs.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": ">=1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	}
+}
